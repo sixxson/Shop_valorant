@@ -1,0 +1,242 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+.product{
+    background-color: #040d11;
+}
+.product_list {
+    display: grid;
+    grid-template-columns: 10% 90%;
+  }
+  
+  .menu {
+    background-color: #0f1923;
+  
+    ul {
+        list-style: none;
+        color: #ff4655;
+        padding: 0;
+        margin: 0;
+  
+        li {
+            color: #ece8e1;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            ul{
+                display: none;
+                li {
+                    p{
+                        padding: 5px;
+                    }
+                }:hover p{
+                    background-color: #31343659;
+                    color: #ff4655;
+                }
+            } 
+        }:hover ul {
+            display: block;
+        } 
+    }
+  }
+  
+  
+  .menu li:hover svg {
+    transform: rotate(180deg);
+    transition: 0.3s ease-out;
+  }
+  
+  .product {
+    min-height: 1000px;
+    .seach {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ff4655;
+  
+        .input_seaching {
+            margin-right: 20px;
+        }
+  
+        h1 {
+            color: #0f1923;
+            margin-left: 20px;
+        }
+    }
+  }
+  
+  
+  .cards {
+    display: grid;
+    grid-template-columns: 350px 350px 350px ;
+    justify-content: center;
+  }
+  
+  .cards__item {
+    position: relative;
+    width: 300px;
+    height: 380px;
+    margin: 16px;
+    border: 4px solid #ffa0fd;
+    transition: 0.24s all ease-in-out;
+    cursor: pointer;
+  
+    &::after {
+        content: "";
+        position: absolute;
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.2'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        opacity: 0.3;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+  
+    &:hover {
+        &.cards__item--clr1 {
+            background-color: rgba(255, 160, 253, 0.6)
+        }
+  
+        &.cards__item--clr2 {
+            background-color: rgba(120, 139, 255, 0.6)
+        }
+  
+        &.cards__item--clr3 {
+            background-color: rgba(244, 211, 94, 0.6)
+        }
+  
+        &.cards__item--clr4 {
+            background-color: rgba(122, 229, 130, 0.6)
+        }
+  
+        .cards__product {
+            img {
+                filter: drop-shadow(8px 16px 0px rgba(0, 0, 0, 0.4));
+            }
+        }
+    }
+  }
+  
+  .cards__item--clr1 {
+    border-color: #FFA0FD;
+  
+    &::after {
+        background-color: #FFA0FD;
+    }
+  }
+  
+  .cards__item--clr2 {
+    border-color: #788BFF;
+  
+    &::after {
+        background-color: #788BFF;
+    }
+  }
+  
+  .cards__item--clr3 {
+    border-color: #F4D35E;
+  
+    &::after {
+        background-color: #F4D35E;
+    }
+  }
+  
+  .cards__item--clr4 {
+    border-color: #7AE582;
+  
+    &::after {
+        background-color: #7AE582;
+    }
+  }
+  
+  .cards__price {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 20px;
+    color: #ece8e1;
+    text-transform: uppercase;
+  
+    img {
+        width: 30px;
+        height: 30px;
+    }
+  }
+  
+  .cards__name {
+    position: absolute;
+    z-index: 2;
+    bottom: 16px;
+    left: 16px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ece8e1;
+  }
+  
+  .cards__product {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+  
+    img {
+        width: 350px;
+        transform: translate(-15px, -20px) rotate(40deg);
+        transition: 0.24s all ease-in-out;
+        filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.4));
+    }
+  }
+  
+  .cards_lazy {
+    position: absolute;
+    z-index: 2;
+    top: 18px;
+    right: 33%;
+    text-transform: uppercase;
+    img {
+        width: 100%;
+        height: 30px;
+    }
+  }
+
+  .list_item{
+    background-color: #040d11;
+  }
+
+.seach__item{
+  background: linear-gradient(to right, #ff4655,#f87e88);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1{
+    font-family: 'Valorant';
+    color: #0f1923;
+    margin-left: 20px;
+  }
+  .input__seach{
+    margin-right: 20px;
+  }
+  svg{
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+
+.change__page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button{
+    margin: 10px;
+    background-color: #ece8e1;
+    color: #0f1923;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

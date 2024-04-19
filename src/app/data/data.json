@@ -1,0 +1,768 @@
+{
+  "Gun": [
+    {
+      "id": 2,
+      "name": "Reaver Vandal",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/vn/reaver-vandal_valorant_full_skin_154344.webp",
+        "color1": "https://valorantinfo.com/images/us/reaver-vandal-level-5variant-1-red_valorant_full_skin_154345.webp",
+        "color2": "https://valorantinfo.com/images/vn/reaver-vandal-level-6variant-2-black_valorant_full_skin_154346.webp",
+        "color3": "https://valorantinfo.com/images/vn/reaver-vandal-level-7variant-3-white_valorant_full_skin_154347.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://vgraphs.com/images/weapons/skins/chromas/reaver-base.png",
+        "color1": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-1-red.png",
+        "color2": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-2-black.png",
+        "color3": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-3-white.png"
+      },
+      "title": "The Reaver Vandal skin is available since November 2, 2020",
+      "type": "Rifle",
+      "set": "bundle Reaver",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 3,
+      "name": "Reaver Operator",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/reaver-operator_valorant_full_skin_154797.webp",
+        "color1": "https://valorantinfo.com/images/us/reaver-operator-level-5variant-1-red_valorant_full_skin_154798.webp",
+        "color2": "https://valorantinfo.com/images/us/reaver-operator-level-6variant-2-black_valorant_full_skin_154799.webp",
+        "color3": "https://valorantinfo.com/images/us/reaver-operator-level-7variant-3-white_valorant_full_skin_154800.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://vgraphs.com/images/weapons/skins/chromas/reaver-base.png",
+        "color1": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-1-red.png",
+        "color2": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-2-black.png",
+        "color3": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-3-white.png"
+      },
+      "title": "The Reaver Operator skin is available since November 3, 2020",
+      "type": "Sniper",
+      "set": "bundle Reaver",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 4,
+      "name": "Reaver Guardians123",
+      "price": 177532819,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/vn/reaver-guardian_valorant_full_skin_154848.webp",
+        "color1": "https://valorantinfo.com/images/vn/reaver-guardian-level-5variant-1-red_valorant_full_skin_154849.webp",
+        "color2": "https://valorantinfo.com/images/vn/reaver-guardian-level-6variant-2-black_valorant_full_skin_154850.webp",
+        "color3": "https://valorantinfo.com/images/vn/reaver-guardian-level-7variant-3-white_valorant_full_skin_154851.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://vgraphs.com/images/weapons/skins/chromas/reaver-base.png",
+        "color1": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-1-red.png",
+        "color2": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-2-black.png",
+        "color3": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-3-white.png"
+      },
+      "title": "The Reaver Guardian skin is available since November 3, 2020",
+      "type": "Rifle",
+      "set": "bundle Reaver",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 5,
+      "name": "Reaver spectre",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/vn/reaver-ep-5-spectre_valorant_full_skin_426004.webp",
+        "color1": "https://valorantinfo.com/images/vn/reaver-ep-5-spectre-level-4variant-1-red_valorant_full_skin_426005.webp",
+        "color2": "https://valorantinfo.com/images/vn/reaver-ep-5-spectre-level-4variant-2-black_valorant_full_skin_426006.webp",
+        "color3": "https://valorantinfo.com/images/vn/reaver-ep-5-spectre-level-4variant-3-white_valorant_full_skin_426007.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://vgraphs.com/images/weapons/skins/chromas/reaver-base.png",
+        "color1": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-1-red.png",
+        "color2": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-2-black.png",
+        "color3": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-3-white.png"
+      },
+      "title": "The Reaver Knife skin is available since November 3, 2020",
+      "type": "Rifle",
+      "set": "bundle Reaver",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 6,
+      "name": "Reaver ghost",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/vn/reaver-ep-5-ghost_valorant_full_skin_425667.webp",
+        "color1": "https://valorantinfo.com/images/vn/reaver-ep-5-ghost-level-4variant-1-red_valorant_full_skin_425668.webp",
+        "color2": "https://valorantinfo.com/images/vn/reaver-ep-5-ghost-level-4variant-2-black_valorant_full_skin_425669.webp",
+        "color3": "https://valorantinfo.com/images/vn/reaver-ep-5-ghost-level-4variant-3-white_valorant_full_skin_425670.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://vgraphs.com/images/weapons/skins/chromas/reaver-base.png",
+        "color1": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-1-red.png",
+        "color2": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-2-black.png",
+        "color3": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-3-white.png"
+      },
+      "title": "The Reaver Knife skin is available since November 3, 2020",
+      "type": "Sidearm",
+      "set": "bundle Reaver",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 7,
+      "name": "Reaver phantom",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/vn/reaver-ep-5-phantom_valorant_full_skin_425405.webp",
+        "color1": "https://valorantinfo.com/images/vn/reaver-ep-5-phantom-level-4variant-1-red_valorant_full_skin_425406.webp",
+        "color2": "https://valorantinfo.com/images/vn/reaver-ep-5-phantom-level-4variant-2-black_valorant_full_skin_425407.webp",
+        "color3": "https://valorantinfo.com/images/vn/reaver-ep-5-phantom-level-4variant-3-white_valorant_full_skin_425408.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://vgraphs.com/images/weapons/skins/chromas/reaver-base.png",
+        "color1": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-1-red.png",
+        "color2": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-2-black.png",
+        "color3": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-3-white.png"
+      },
+      "title": "The Reaver Knife skin is available since November 3, 2020",
+      "type": "Rifle",
+      "set": "bundle Reaver",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 8,
+      "name": "Reaver odin",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/vn/reaver-ep-5-odin_valorant_full_skin_425158.webp",
+        "color1": "https://valorantinfo.com/images/vn/reaver-ep-5-odin-level-4variant-1-red_valorant_full_skin_425159.webp",
+        "color2": "https://valorantinfo.com/images/vn/reaver-ep-5-odin-level-4variant-2-black_valorant_full_skin_425160.webp",
+        "color3": "https://valorantinfo.com/images/vn/reaver-ep-5-odin-level-4variant-3-white_valorant_full_skin_425161.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://vgraphs.com/images/weapons/skins/chromas/reaver-base.png",
+        "color1": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-1-red.png",
+        "color2": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-2-black.png",
+        "color3": "https://vgraphs.com/images/weapons/skins/chromas/reaver-variant-3-white.png"
+      },
+      "title": "The Reaver Knife skin is available since November 3, 2020",
+      "type": "Heavy",
+      "set": "bundle Reaver",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 9,
+      "name": "Vandal kuronami",
+      "price": 2375,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/kuronami-vandal_valorant_full_skin_1170495.webp",
+        "color1": "https://valorantinfo.com/images/us/kuronami-vandal-level-4variant-1-purple_valorant_full_skin_1170496.webp",
+        "color2": "https://valorantinfo.com/images/us/kuronami-vandal-level-4variant-2-white_valorant_full_skin_1170497.webp",
+        "color3": "https://valorantinfo.com/images/us/kuronami-vandal-level-4variant-3-black_valorant_full_skin_1170498.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/3637a0be-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/9dd03547-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/b0113d7e-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/b899afbc-swatch.webp"
+      },
+      "title": "The Kuronami Vandal skin is available since November 3, 2020",
+      "type": "Rifle",
+      "set": "bundle Kuronami",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 10,
+      "name": "Kuronami Spectre",
+      "price": 2375,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/kuronami-spectre_valorant_full_skin_1171602.webp",
+        "color1": "https://valorantinfo.com/images/us/kuronami-spectre-level-4variant-1-purple_valorant_full_skin_1171603.webp",
+        "color2": "https://valorantinfo.com/images/us/kuronami-spectre-level-4variant-2-white_valorant_full_skin_1171604.webp",
+        "color3": "https://valorantinfo.com/images/us/kuronami-spectre-level-4variant-3-black_valorant_full_skin_1171605.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/3637a0be-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/9dd03547-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/b0113d7e-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/b899afbc-swatch.webp"
+      },
+      "title": "The Kuronami Spectre skin is available since November 3, 2020",
+      "type": "SMG",
+      "set": "bundle Kuronami",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 11,
+      "name": "Kuronami Sheriff",
+      "price": 2375,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/kuronami-sheriff_valorant_full_skin_1171181.webp",
+        "color1": "https://valorantinfo.com/images/us/kuronami-sheriff-level-4variant-1-purple_valorant_full_skin_1171182.webp",
+        "color2": "https://valorantinfo.com/images/us/kuronami-sheriff-level-4variant-2-white_valorant_full_skin_1171183.webp",
+        "color3": "https://valorantinfo.com/images/us/kuronami-sheriff-level-4variant-3-black_valorant_full_skin_1171184.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/3637a0be-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/9dd03547-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/b0113d7e-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/b899afbc-swatch.webp"
+      },
+      "title": "The Kuronami Sheriff skin is available since November 3, 2020",
+      "type": "Sidearm",
+      "set": "bundle Kuronami",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 12,
+      "name": "Kuronami Marshal",
+      "price": 2375,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/kuronami-marshal_valorant_full_skin_1171510.webp",
+        "color1": "https://valorantinfo.com/images/us/kuronami-marshal-level-4variant-1-purple_valorant_full_skin_1171511.webp",
+        "color2": "https://valorantinfo.com/images/us/kuronami-marshal-level-4variant-2-white_valorant_full_skin_1171512.webp",
+        "color3": "https://valorantinfo.com/images/us/kuronami-marshal-level-4variant-3-black_valorant_full_skin_1171513.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/3637a0be-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/9dd03547-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/b0113d7e-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/b899afbc-swatch.webp"
+      },
+      "title": "The Kuronami Marshal skin is available since November 3, 2020",
+      "type": "Sniper",
+      "set": "bundle Kuronami",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 13,
+      "name": "Sentinels of Light Ares",
+      "price": 2175,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/sentinels-of-light-ares_valorant_full_skin_154294.webp",
+        "color1": "https://valorantinfo.com/images/us/sentinels-of-light-ares-level-4variant-1-pink_valorant_full_skin_154295.webp",
+        "color2": "https://valorantinfo.com/images/us/sentinels-of-light-ares-level-4variant-2-redgreen_valorant_full_skin_154296.webp",
+        "color3": "https://valorantinfo.com/images/us/sentinels-of-light-ares-level-4variant-3-bluepurple_valorant_full_skin_154297.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Ares skin is available since November 3, 2020",
+      "type": "Heavy",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 14,
+      "name": "Sentinels of Light Operator",
+      "price": 2175,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/sentinels-of-light-operator_valorant_full_skin_154793.webp",
+        "color1": "https://valorantinfo.com/images/us/sentinels-of-light-operator-level-4variant-1-pink_valorant_full_skin_154794.webp",
+        "color2": "https://valorantinfo.com/images/us/sentinels-of-light-operator-level-4variant-2-redgreen_valorant_full_skin_154795.webp",
+        "color3": "https://valorantinfo.com/images/us/sentinels-of-light-operator-level-4variant-3-bluepurple_valorant_full_skin_154796.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Operator skin is available since November 3, 2020",
+      "type": "Sniper",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 15,
+      "name": "Sentinels of Light Vandal",
+      "price": 2175,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/sentinels-of-light-vandal_valorant_full_skin_154340.webp",
+        "color1": "https://valorantinfo.com/images/us/sentinels-of-light-vandal-level-4variant-1-pink_valorant_full_skin_154341.webp",
+        "color2": "https://valorantinfo.com/images/us/sentinels-of-light-vandal-level-4variant-2-redgreen_valorant_full_skin_154342.webp",
+        "color3": "https://valorantinfo.com/images/us/sentinels-of-light-vandal-level-4variant-3-bluepurple_valorant_full_skin_154343.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Vandal skin is available since November 3, 2020",
+      "type": "Rifle",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 16,
+      "name": "Sentinels of Light Sheriff",
+      "price": 2175,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/sentinels-of-light-sheriff_valorant_full_skin_154721.webp",
+        "color1": "https://valorantinfo.com/images/us/sentinels-of-light-sheriff-level-4variant-1-pink_valorant_full_skin_154722.webp",
+        "color2": "https://valorantinfo.com/images/us/sentinels-of-light-sheriff-level-4variant-2-redgreen_valorant_full_skin_154723.webp",
+        "color3": "https://valorantinfo.com/images/us/sentinels-of-light-sheriff-level-4variant-3-bluepurple_valorant_full_skin_154724.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Sheriff skin is available since November 3, 2020",
+      "type": "Sidearm",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 17,
+      "name": "Sentinels of Light Odin",
+      "price": 2175,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/sentinels-of-light-odin_valorant_full_skin_1113179.webp",
+        "color1": "https://valorantinfo.com/images/us/sentinels-of-light-odin-level-4variant-1-pink_valorant_full_skin_1113180.webp",
+        "color2": "https://valorantinfo.com/images/us/sentinels-of-light-odin-level-4variant-2-redgreen_valorant_full_skin_1113181.webp",
+        "color3": "https://valorantinfo.com/images/us/sentinels-of-light-odin-level-4variant-3-bluepurple_valorant_full_skin_1113182.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Odin skin is available since November 3, 2020",
+      "type": "Heavy",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 18,
+      "name": "Sentinels of Light Phantom",
+      "price": 2175,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/sentinels-of-light-phantom_valorant_full_skin_1113591.webp",
+        "color1": "https://valorantinfo.com/images/us/sentinels-of-light-phantom-level-4variant-1-pink_valorant_full_skin_1113592.webp",
+        "color2": "https://valorantinfo.com/images/us/sentinels-of-light-phantom-level-4variant-2-redgreen_valorant_full_skin_1113593.webp",
+        "color3": "https://valorantinfo.com/images/us/sentinels-of-light-phantom-level-4variant-3-bluepurple_valorant_full_skin_1113594.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Phantom skin is available since November 3, 2020",
+      "type": "Rifle",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 19,
+      "name": "Sentinels of Light Spectre",
+      "price": 2175,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/sentinels-of-light-spectre_valorant_full_skin_1114433.webp",
+        "color1": "https://valorantinfo.com/images/us/sentinels-of-light-spectre-level-4variant-1-pink_valorant_full_skin_1114434.webp",
+        "color2": "https://valorantinfo.com/images/us/sentinels-of-light-spectre-level-4variant-2-redgreen_valorant_full_skin_1114435.webp",
+        "color3": "https://valorantinfo.com/images/us/sentinels-of-light-spectre-level-4variant-3-bluepurple_valorant_full_skin_1114436.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Spectre skin is available since November 3, 2020",
+      "type": "SMG",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 20,
+      "name": "Sentinels of Light Shorty",
+      "price": 2175,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/sentinels-of-light-shorty_valorant_full_skin_1114092.webp",
+        "color1": "https://valorantinfo.com/images/us/sentinels-of-light-shorty-level-4variant-1-pink_valorant_full_skin_1114093.webp",
+        "color2": "https://valorantinfo.com/images/us/sentinels-of-light-shorty-level-4variant-2-redgreen_valorant_full_skin_1114094.webp",
+        "color3": "https://valorantinfo.com/images/us/sentinels-of-light-shorty-level-4variant-3-bluepurple_valorant_full_skin_1114095.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Shorty skin is available since November 3, 2020",
+      "type": "Sidearm",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 21,
+      "name": "Prime Bucky",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/prime20-bucky_valorant_full_skin_154514.webp",
+        "color1": "https://valorantinfo.com/images/us/prime20-bucky-level-4variant-1-gold_valorant_full_skin_154515.webp",
+        "color2": "https://valorantinfo.com/images/us/prime20-bucky-level-4variant-2-green_valorant_full_skin_154516.webp",
+        "color3": "https://valorantinfo.com/images/us/prime20-bucky-level-4variant-3-orange_valorant_full_skin_154517.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/ab5fdc5b-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/eb69b3d5-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/58e9f7ab-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/51ec6344-swatch.webp"
+      },
+      "title": "The Prime Bucky skin is available since November 3, 2020",
+      "type": "Shotgun",
+      "set": "bundle Prime",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 22,
+      "name": "Prime Frenzy",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/prime20-frenzy_valorant_full_skin_154568.webp",
+        "color1": "https://valorantinfo.com/images/us/prime20-frenzy-level-4variant-1-gold_valorant_full_skin_154569.webp",
+        "color2": "https://valorantinfo.com/images/us/prime20-frenzy-level-4variant-2-green_valorant_full_skin_154570.webp",
+        "color3": "https://valorantinfo.com/images/us/prime20-frenzy-level-4variant-3-orange_valorant_full_skin_154571.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/ab5fdc5b-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/eb69b3d5-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/58e9f7ab-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/51ec6344-swatch.webp"
+      },
+      "title": "The Prime Frenzy skin is available since November 3, 2020",
+      "type": "Sidearm",
+      "set": "bundle Prime",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 23,
+      "name": "Prime Guardian",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/prime-guardian_valorant_full_skin_154822.webp",
+        "color1": "https://valorantinfo.com/images/us/prime-guardian-level-7variant-3-yellow_valorant_full_skin_154825.webp",
+        "color2": "https://valorantinfo.com/images/us/prime-guardian-level-6variant-2-blue_valorant_full_skin_154824.webp",
+        "color3": "https://valorantinfo.com/images/us/prime-guardian-level-5variant-1-orange_valorant_full_skin_154823.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/ab5fdc5b-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/eb69b3d5-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/58e9f7ab-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/51ec6344-swatch.webp"
+      },
+      "title": "The Prime Guardian skin is available since November 3, 2020",
+      "type": "Rifle",
+      "set": "bundle Prime",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 24,
+      "name": "Prime Classic",
+      "price": 1775,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/prime-classic_valorant_full_skin_154615.webp",
+        "color1": "https://valorantinfo.com/images/us/prime-classic-level-7-variant-3-yellow_valorant_full_skin_154618.webp",
+        "color2": "https://valorantinfo.com/images/us/prime-classic-level-6-variant-2-blue_valorant_full_skin_154617.webp",
+        "color3": "https://valorantinfo.com/images/us/prime-classic-level-5variant-1-orange_valorant_full_skin_154616.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/ab5fdc5b-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/eb69b3d5-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/58e9f7ab-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/51ec6344-swatch.webp"
+      },
+      "title": "The Prime Classic skin is available since November 3, 2020",
+      "type": "Sidearm",
+      "set": "bundle Prime",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 25,
+      "name": "Sentinels of Light Melee",
+      "price": 4350,
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/relic-stone-daggers_valorant_full_skin_1114675.webp",
+        "color1": "https://valorantinfo.com/images/us/relic-stone-daggers-level-2variant-1-pink_valorant_full_skin_1114676.webp",
+        "color2": "https://valorantinfo.com/images/us/relic-stone-daggers-level-2variant-2-redgreen_valorant_full_skin_1114677.webp",
+        "color3": "https://valorantinfo.com/images/us/relic-stone-daggers-level-2variant-3-bluepurple_valorant_full_skin_1114678.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/53abc8af-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/b4b0d84e-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/39ed0f62-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/ab9a4b7b-swatch.webp"
+      },
+      "title": "The Sentinels of Light Melee skin is available since November 3, 2020",
+      "type": "Melee",
+      "set": "bundle Sentinels of Light",
+      "ranking": "https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp",
+      "star": 5
+    },
+    {
+      "id": 26,
+      "name": "XERØFANG Ghost",
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/xerofang-ghost_valorant_full_skin_1230643.webp",
+        "color1": "https://valorantinfo.com/images/us/xerofang-ghost-level-4variant-2-pink_valorant_full_skin_1230645.webp",
+        "color2": "https://valorantinfo.com/images/us/xerofang-ghost-level-4variant-1-black_valorant_full_skin_1230644.webp",
+        "color3": "https://valorantinfo.com/images/us/xerofang-ghost-level-4variant-3-silver_valorant_full_skin_1230646.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/210b969e-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/510eda56-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/344fed75-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/a1ea10cd-swatch.webp"
+      },
+      "price": 1775,
+      "set": "XERØFANG",
+      "type": "Sidearm",
+      "title": "Episode 8 Defiance Act 1 2024-02-06 Collection XERØFANG",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 27,
+      "name": "Magepunk Vandal",
+      "imgURL": {
+        "colordefault": "https://valorantinfo.com/images/us/magepunk-vandal_valorant_full_skin_793839.webp",
+        "color1": "https://valorantinfo.com/images/us/magepunk-vandal-level-4variant-1-green_valorant_full_skin_793840.webp",
+        "color2": "https://valorantinfo.com/images/us/magepunk-vandal-level-4variant-2-blackred_valorant_full_skin_793841.webp",
+        "color3": "https://valorantinfo.com/images/us/magepunk-vandal-level-4variant-3-yellow_valorant_full_skin_793842.webp"
+      },
+      "colorURL": {
+        "colorDefault": "https://valorantinfo.com/images/weapons/chromas/71c769ce-swatch.webp",
+        "color1": "https://valorantinfo.com/images/weapons/chromas/5c79f324-swatch.webp",
+        "color2": "https://valorantinfo.com/images/weapons/chromas/241b0bd7-swatch.webp",
+        "color3": "https://valorantinfo.com/images/weapons/chromas/db0a8a44-swatch.webp"
+      },
+      "price": 1775,
+      "set": "Magepunk",
+      "type": "Rifle",
+      "title": "Episode 6 Revelation Act 3 2023-05-23 Collection Magepunk",
+      "ranking": "https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp",
+      "star": 3
+    },
+    {
+      "id": 28,
+      "name": "1p23oi",
+      "imgURL": {
+        "colordefault": "oiqeuq",
+        "color1": "1iqwoeu",
+        "color2": "qwoweu",
+        "color3": "qoewuw"
+      },
+      "colorURL": {
+        "colorDefault": "qoieu",
+        "color1": "qewoiu",
+        "color2": "qwieou",
+        "color3": "qewio"
+      },
+      "price": 12378,
+      "set": "euoi",
+      "type": "Sidearm",
+      "title": "123",
+      "ranking": "https://valorantinfo.com/images/collection/12683d76-48d7-84a3-4e09-6985794f0445.webp",
+      "star": 1
+    }
+  ],
+  "User": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@admin",
+      "role": "admin",
+      "password": "admimadmin"
+    },
+    {
+      "id": 2,
+      "fullName": "qweq",
+      "company": "qwe",
+      "fullAddress": "qwe",
+      "email": "qwe",
+      "role": "user"
+    },
+    {
+      "username": "admin123",
+      "password": "12345678",
+      "email": "asdjlk@asd",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "username": "asdmin",
+      "password": "qweasdzxc",
+      "email": "asdmin@asdmin",
+      "role": "user",
+      "id": 5
+    }
+  ],
+  "Other": [
+    {
+      "id": 2,
+      "fullName": "qweq",
+      "company": "qwe",
+      "fullAddress": "qwe",
+      "email": "qwe",
+      "phone": "123123",
+      "items": [
+        {
+          "id": 3,
+          "price": 1775,
+          "img": "https://valorantinfo.com/images/us/reaver-operator_valorant_full_skin_154797.webp",
+          "name": "Reaver Operator",
+          "set": "bundle Reaver",
+          "quantity": 1
+        }
+      ],
+      "shipping": "Giao hàng tiết kiệm ",
+      "totalAmount": 340,
+      "payment": "cash",
+      "status": "Delivered"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "fullName": "asd",
+      "company": "asda",
+      "fullAddress": "asd",
+      "email": "asd@asd",
+      "phone": "123",
+      "items": [
+        {
+          "id": 2,
+          "price": 1775,
+          "img": "https://valorantinfo.com/images/vn/reaver-vandal_valorant_full_skin_154344.webp",
+          "name": "Reaver Vandal",
+          "set": "bundle Reaver",
+          "quantity": 1
+        }
+      ],
+      "shipping": "Giao hàng hoả tốc ",
+      "totalAmount": 320,
+      "payment": "cash",
+      "status": "Delivered"
+    },
+    {
+      "id": 4,
+      "username": "admin",
+      "fullName": "asjdlask",
+      "company": "ASD",
+      "fullAddress": "DAJSD",
+      "email": "AKLSDJA",
+      "phone": "1233231253167",
+      "items": [
+        {
+          "id": 2,
+          "price": 1775,
+          "img": "https://valorantinfo.com/images/vn/reaver-vandal_valorant_full_skin_154344.webp",
+          "name": "Reaver Vandal",
+          "set": "bundle Reaver",
+          "quantity": 2
+        },
+        {
+          "id": 23,
+          "price": 1775,
+          "img": "https://valorantinfo.com/images/us/prime-guardian_valorant_full_skin_154822.webp",
+          "name": "Prime Guardian",
+          "set": "bundle Prime",
+          "quantity": 1
+        }
+      ],
+      "shipping": "Giao hàng hoả tốc ",
+      "totalAmount": 670,
+      "payment": "credit_card",
+      "status": "Delivered"
+    },
+    {
+      "id": 5,
+      "username": "asdmin",
+      "fullName": "",
+      "company": "",
+      "fullAddress": "",
+      "email": "",
+      "phone": "",
+      "items": [
+        {
+          "id": 3,
+          "price": 1775,
+          "img": "https://valorantinfo.com/images/us/reaver-operator_valorant_full_skin_154797.webp",
+          "name": "Reaver Operator",
+          "set": "bundle Reaver",
+          "quantity": 1
+        },
+        {
+          "id": 12,
+          "price": 2375,
+          "img": "https://valorantinfo.com/images/us/prime-guardian_valorant_full_skin_154822.webp",
+          "name": "Kuronami Marshal",
+          "set": "bundle Kuronami",
+          "quantity": 1
+        }
+      ],
+      "shipping": "",
+      "totalAmount": 800,
+      "payment": "cash"
+    },
+    {
+      "id": 6,
+      "username": "asdmin",
+      "fullName": "",
+      "company": "",
+      "fullAddress": "",
+      "email": "",
+      "phone": "",
+      "items": [
+        {
+          "id": 20,
+          "price": 2175,
+          "img": "https://valorantinfo.com/images/us/sentinels-of-light-shorty_valorant_full_skin_1114092.webp",
+          "name": "Sentinels of Light Shorty",
+          "set": "bundle Sentinels of Light",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "price": 1775,
+          "img": "https://valorantinfo.com/images/us/reaver-operator_valorant_full_skin_154797.webp",
+          "name": "Reaver Operator",
+          "set": "bundle Reaver",
+          "quantity": 1
+        }
+      ],
+      "shipping": "",
+      "totalAmount": 2525,
+      "payment": "cash"
+    }
+  ]
+}
+

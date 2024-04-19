@@ -1,0 +1,95 @@
+<app-header></app-header>
+<section class="main-top">
+    <div class="main-content">
+        <div class="main-top-content">
+            <div class="main-top-content-desc">
+                <p>Một tựa game bắn súng chiến thuật 5 đấu 5 lấy các nhân vậy làm nền tản</p>
+            </div>
+            <div class="main-top-content-title">
+                <h1>vALORANT</h1>
+            </div>
+        </div>
+        <div class="video-banner">
+            <video playsinline autoplay muted loop
+                src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltce292b05bc900c63/659c99223ea361883557812f/VALORANT_EP8124_001_R007_InGameHomepage_v01_For_Website_Mobile_v2.mp4"></video>
+        </div>
+        <div class="main-top-content-btn">
+            <a href="#">
+                <p>
+                    <span class="bg"></span>
+                    <span class="base"></span>
+                    <span class="text">Valorant</span>
+                </p>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="section_main_mid">
+    <div class="mid-content">
+        <div class="banner">
+            <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt09716309fd22ae37/659f982bfadb3a62bdc3a5c2/Ep8a1_Defiance_Playval.com_Act_Overview_banner_3440x1020_Darkbg.jpg"
+                alt="">
+        </div>
+        <div class="mid-content-ep8a1">
+            <p>HỒI_08 // PHẦN I / NĂM 4</p>
+            <h2 class="heading-03">
+                <span>THÁCH THỨC</span>
+            </h2>
+            <div class="main-mid-content-btn">
+                <a href="#">
+                    <p>
+                        <span class="bg"></span>
+                        <span class="base"></span>
+                        <span class="text">valorant</span>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="shop_item">
+    <div class="cards">
+        <div *ngFor=" let gun of randomGuns | slice:0:displayCount" class="cards_item_product">
+            <a [routerLink]="['/products', gun.id]">
+                <div class="cards__item cards__item--clr1" *ngIf="gun.star === 3">
+                    <div class="cards_lazy"><img [src]="gun.ranking"
+                            [ngStyle]="{'right.px': +gun.star === 5 ? 120 : null }" alt=""></div>
+                    <div class="cards__price"><img src="https://valorantinfo.com/images/collection/vp.webp" alt="">
+                        {{gun.price}}
+                    </div>
+                    <div class="cards__name">{{gun.name}}</div>
+                    <div class="cards__product">
+                        <img [src]="gun.imgURL.colordefault" alt=""
+                        [ngStyle]="{ 'width.px': gun.type === 'Sidearm' ? 300 :(gun.type === 'Heavy' ? 400 : (gun.type==='Melee' ? 280 : null)),'transform': gun.type === 'Melee' ? 'rotate(2deg)' : null}">
+                    </div>
+                </div>
+            </a>
+            <a [routerLink]="['/products', gun.id]">
+                <div class="cards__item cards__item--clr2" *ngIf="gun.star === 4">
+                    <div class="cards_lazy"><img [src]="gun.ranking" alt=""></div>
+                    <div class="cards__price"><img src="https://valorantinfo.com/images/collection/vp.webp" alt="">
+                        {{gun.price}}
+                    </div>
+                    <div class="cards__name">{{gun.name}}</div>
+                    <div class="cards__product">
+                        <img [src]="gun.imgURL.colordefault" alt="">
+                    </div>
+                </div>
+            </a>
+            <a [routerLink]="['/products', gun.id]">
+                <div class="cards__item cards__item--clr3" *ngIf="gun.star === 5">
+                    <div class="cards_lazy"><img [src]="gun.ranking" alt=""></div>
+                    <div class="cards__price"><img src="https://valorantinfo.com/images/collection/vp.webp" alt="">
+                        {{gun.price}}
+                    </div>
+                    <div class="cards__name">{{gun.name}}</div>
+                    <div class="cards__product">
+                        <img [src]="gun.imgURL.colordefault" alt=""
+                            [ngStyle]="{ 'width.px': gun.type === 'Sidearm' ? 300 :(gun.type === 'Heavy' ? 400 : (gun.type==='Melee' ? 280 : null)),'transform': gun.type === 'Melee' ? 'rotate(2deg)' : null}">
+                        </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

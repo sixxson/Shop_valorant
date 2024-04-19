@@ -1,0 +1,483 @@
+<section class="body">
+    <div class="dashboard">
+        <div class="nav_left">
+            <nav>
+                <h1>Admin</h1>
+                <ul (click)="showAccountList()">
+                    account
+                    <svg fill="#ece8e1" width="10px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        transform="rotate(90)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z">
+                            </path>
+                        </g>
+                    </svg>
+
+                </ul>
+                <ul>
+                    product
+                    <svg fill="#ece8e1" width="10px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        transform="rotate(90)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z">
+                            </path>
+                        </g>
+                    </svg>
+                    <li (click)="showProductList()">list product</li>
+                    <li (click)="showAddProductForm()">add product</li>
+                </ul>
+                <ul (click)="showOther()">
+                    Other
+                </ul>
+            </nav>
+        </div>
+        <div class="container_asd">
+            <div class="container_header">
+                <div class="seach">
+                    <input type="text" placeholder="search">
+                    <button>search</button>
+                </div>
+                <div class="logout_btn">
+                    <h1> Hi Admin !!!</h1>
+                    <nav class="dropdown">
+                        <svg fill="#000" width="50px" viewBox="0 0 64 64" data-name="Layer 1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title></title>
+                                <path
+                                    d="M32,32.86a9.22,9.22,0,1,1,9.21-9.22A9.23,9.23,0,0,1,32,32.86Zm0-15.43a6.22,6.22,0,1,0,6.21,6.21A6.21,6.21,0,0,0,32,17.43Z">
+                                </path>
+                                <path
+                                    d="M32,56.64a24.68,24.68,0,0,1-15.22-5.27,1.52,1.52,0,0,1-.57-1.06c0-.16,0-.31,0-.47a15.8,15.8,0,1,1,31.6,0c0,.16,0,.31,0,.47a1.52,1.52,0,0,1-.57,1.06A24.68,24.68,0,0,1,32,56.64ZM19.21,49.45a21.62,21.62,0,0,0,25.58,0,12.8,12.8,0,0,0-25.58,0Zm27.08.74h0Z">
+                                </path>
+                                <path
+                                    d="M32,56.64a24.65,24.65,0,1,1,15.22-5.27A24.68,24.68,0,0,1,32,56.64Zm0-46.28A21.63,21.63,0,0,0,18.64,49a21.64,21.64,0,0,0,35-17A21.67,21.67,0,0,0,32,10.36Z">
+                                </path>
+                            </g>
+                        </svg>
+                        <svg fill="#003" class="tam_giac" width="30px" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg" transform="rotate(90)">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z">
+                                </path>
+                            </g>
+                        </svg>
+                        <ul class="dropdown-menu">
+                            <li> <a class="link" (click)="home()">Home</a></li>
+                            <li> <a class="link" (click)="logout()">Đăng xuất</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="container_body">
+                <div class="container_body__header">
+                    <div class="container_body__content">
+                        <div class="container_body__content__item" *ngIf="showAccount">
+                            <h1>Account</h1>
+                            <div class="container_body__content__item__btn">
+                                <table class="container">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <h1>Id</h1>
+                                            </th>
+                                            <th>
+                                                <h1>Username</h1>
+                                            </th>
+                                            <th>
+                                                <h1>Password</h1>
+                                            </th>
+                                            <th>
+                                                <h1>Email</h1>
+                                            </th>
+                                            <th>
+                                                <h1>Role</h1>
+                                            </th>
+                                            <th>
+                                                <h1>Edit</h1>
+                                            </th>
+                                            <th>
+                                                <h1>Delete</h1>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let user of listUser ">
+                                            <td>{{user.id}}</td>
+                                            <td>{{user.username}}</td>
+                                            <td>{{user.password}}</td>
+                                            <td>{{user.email}}</td>
+                                            <td>{{user.role}}</td>
+                                            <td><button (click)="editUser(user.id)">Edit</button></td>
+                                            <td><button (click)="deleteUser(user.id)">Delete</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="container_body__content__item" *ngIf="showProduct">
+                            <h1>Product</h1>
+                            <table class="container">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <h1>Id</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Img</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Name</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Price</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Bundle</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Type</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Title</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Ranking</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Star</h1>
+                                        </th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor=" let gun of gunsOnCurrentPage | slice:0:displayCount ">
+                                        <td>{{gun.id}}</td>
+                                        <td><img src="{{gun.imgURL.colordefault}}"
+                                                [ngStyle]="{ 'width.px': (gun.type === 'Sidearm' ? 120 : (gun.type==='Melee' ? 240 : null)),'transform': gun.type === 'Melee' ? 'rotate(2deg)' : null}"
+                                                alt=""></td>
+                                        <td>{{gun.name}}</td>
+                                        <td style="width:100px">{{gun.price}}</td>
+                                        <td>{{gun.set}}</td>
+                                        <td>{{gun.type}}</td>
+                                        <td style="width:300px">{{gun.title}}</td>
+                                        <td><img style="width:30px" src="{{gun.ranking}}" alt=""></td>
+                                        <td>{{gun.star}}</td>
+                                        <td><button (click)="deleteProduct(gun.id)">delete</button></td>
+                                        <td style="padding: 20px;"><button (click)="editProduct(gun.id)">edit</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="change__page">
+                                <button (click)="prevPage()" [disabled]="currentPage === 1"><svg width="20px"
+                                        height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" stroke="#000000"
+                                        transform="matrix(1, 0, 0, 1, 0, 0)">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path d="M15 7L10 12L15 17" stroke="#000000" stroke-width="1.2"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg></button>
+                                <!-- Hiển thị số trang và nút mũi tên phải -->
+                                <div *ngFor="let pageNumber of getPageNumbers()">
+                                    <button (click)="setPage(pageNumber)" [class.active]="pageNumber === currentPage">{{
+                                        pageNumber
+                                        }}</button>
+                                </div>
+                                <!-- Nút mũi tên phải để chuyển đến trang tiếp theo -->
+                                <button (click)="nextPage()" [disabled]="currentPage === getPageNumbers().length"><svg
+                                        width="20px" height="20px" viewBox="0 0 24.00 24.00" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" stroke="#000000"
+                                        transform="matrix(1, 0, 0, 1, 0, 0)rotate(180)">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path d="M15 7L10 12L15 17" stroke="#000000" stroke-width="1.2"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="container_body__content__item" *ngIf="showAddProductFormFlag">
+                            <h1>Add Product Form</h1>
+                            <!-- Hiển thị form thêm sản phẩm ở đây -->
+                            <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+                                <label for="productName">Product Name:</label>
+                                <input type="text" id="productName" name="productName" required
+                                    formControlName="productName">
+                                <label for="productPrice">Product Price</label>
+                                <input type="number" id="productPrice" name="productPrice" required
+                                    formControlName="productPrice">
+                                <div class="addImg_Product_Color">
+                                    <label for="productImgURL">Product Image URL colordefault:</label>
+                                    <input type="text" id="colordefault" name="colordefault" required
+                                        formControlName="colordefault">
+                                    <label for="productImgURL">Product Image URL color1:</label>
+                                    <input type="text" id="color1" name="color1" required formControlName="color1">
+                                    <label for="productImgURL">Product Image URL color2:</label>
+                                    <input type="text" id="color2" name="color2" required formControlName="color2">
+                                    <label for="productImgURL">Product Image URL color3:</label>
+                                    <input type="text" id="color3" name="color3" required formControlName="color3">
+                                </div>
+                                <div class="addColor">
+                                    <label for="productColor">Product colorDefault:</label>
+                                    <input type="text" id="colorDefault" name="colorDefault" required
+                                        formControlName="colorDefault">
+                                    <label for="productColor">Product Color1:</label>
+                                    <input type="text" id="color1_1" name="color1_1" required
+                                        formControlName="color1_1">
+                                    <label for="productColor">Product Color2:</label>
+                                    <input type="text" id="color2_1" name="color2_1" required
+                                        formControlName="color2_1">
+                                    <label for="productColor">Product Color3:</label>
+                                    <input type="text" id="color3_1" name="color3_1" required
+                                        formControlName="color3_1">
+                                </div>
+                                <div class="ranking">
+                                    <label for="productRanking">Product Ranking:</label>
+                                    <input type="radio" id="productRanking3" name="productStar" value="1">
+                                    <label for="productRanking3"><img
+                                            src="https://valorantinfo.com/images/collection/12683d76-48d7-84a3-4e09-6985794f0445.webp"
+                                            alt=""></label>
+                                    <input type="radio" id="productRanking4" name="productStar" value="2">
+                                    <label for="productRanking4"><img
+                                            src="https://valorantinfo.com/images/collection/0cebb8be-46d7-c12a-d306-e9907bfc5a25.webp"
+                                            alt=""></label>
+                                    <input type="radio" id="productRanking1" name="productStar" value="3">
+                                    <label for="productRanking1"><img
+                                            src="https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp"
+                                            alt=""></label>
+                                    <input type="radio" id="productRanking5" name="productStar" value="4">
+                                    <label for="productRanking5"><img
+                                            src="https://valorantinfo.com/images/collection/411e4a55-4e59-7757-41f0-86a53f101bb5.webp"
+                                            alt=""></label>
+                                    <input type="radio" id="productRanking2" name="productStar" value="5">
+                                    <label for="productRanking2"><img
+                                            src="https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp"
+                                            alt=""></label>
+                                </div>
+                                <label for="productType">Product Type:</label>
+                                <select id="productType" name="productType" required formControlName="productType">
+                                    <option [selected]="isSelected" value="0">-- Choose gun type --</option>
+                                    <option value="Sidearm">Sidearm</option>
+                                    <option value="SMG">SMG</option>
+                                    <option value="Rifle">Rifle</option>
+                                    <option value="Sniper">Sniper</option>
+                                    <option value="Heavy">Heavy</option>
+                                    <option value="Melee">Melee</option>
+                                </select>
+                                <label for="productSet">Product Set:</label>
+                                <input type="text" id="productSet" name="productSet" required
+                                    formControlName="productSet">
+                                <label for="productTitle">Product title</label>
+                                <input type="text" id="productTitle" name="productTitle" required
+                                    formControlName="productTitle">
+                                <button type="submit">Add Product</button>
+                            </form>
+                        </div>
+                        <div class="container_body__content__item" *ngIf="showEditProductFormFlag">
+                            <h1>Edit Product Form</h1>
+                            <form (ngSubmit)="updateProduct()" *ngIf="editedProduct">
+                                <label for="productName">Product Name:</label>
+                                <input type="text" id="productName" name="productName" required
+                                    [(ngModel)]="editedProduct.name">
+                                <label for="productPrice">Product Price</label>
+                                <input type="number" id="productPrice" name="productPrice" required
+                                    [(ngModel)]="editedProduct.price">
+                                <div class="addImg_Product_Color">
+                                    <label for="productImgURL">Product Image URL colordefault:</label>
+                                    <input type="text" id="colordefault" name="colordefault" required
+                                        [(ngModel)]="editedProduct.imgURL.colordefault">
+                                    <label for="productImgURL">Product Image URL color1:</label>
+                                    <input type="text" id="color1" name="color1" required
+                                        [(ngModel)]="editedProduct.imgURL.color1">
+                                    <label for="productImgURL">Product Image URL color2:</label>
+                                    <input type="text" id="color2" name="color2" required
+                                        [(ngModel)]="editedProduct.imgURL.color2">
+                                    <label for="productImgURL">Product Image URL color3:</label>
+                                    <input type="text" id="color2" name="color3" required
+                                        [(ngModel)]="editedProduct.imgURL.color3">
+                                </div>
+                                <div class="addColor">
+                                    <label for="productColor">Product colordefault:</label>
+                                    <input type="text" id="colordefault" name="colorDefault" required
+                                        [(ngModel)]="editedProduct.colorURL.colorDefault">
+                                    <label for="productColor">Product Color1:</label>
+                                    <input type="text" id="color1" name="color1-1" required
+                                        [(ngModel)]="editedProduct.colorURL.color1">
+                                    <label for="productColor">Product Color2:</label>
+                                    <input type="text" id="color2" name="color2-1" required
+                                        [(ngModel)]="editedProduct.colorURL.color2">
+                                    <label for="productColor">Product Color3:</label>
+                                    <input type="text" id="color3" name="color3-1" required
+                                        [(ngModel)]="editedProduct.colorURL.color3">
+                                </div>
+                                <div class="ranking">
+                                    <label for="productRanking">Product Ranking:</label>
+                                    <input type="radio" id="productRanking3" name="productRanking" value="1">
+                                    <label for="productRanking3"><img
+                                            src="https://valorantinfo.com/images/collection/12683d76-48d7-84a3-4e09-6985794f0445.webp"
+                                            alt=""></label>
+                                    <input type="radio" id="productRanking4" name="productRanking" value="2">
+                                    <label for="productRanking4"><img
+                                            src="https://valorantinfo.com/images/collection/0cebb8be-46d7-c12a-d306-e9907bfc5a25.webp"
+                                            alt=""></label>
+                                    <input type="radio" id="productRanking1" name="productRanking" value="3">
+                                    <label for="productRanking1"><img
+                                            src="https://valorantinfo.com/images/60bca009-4182-7998-dee7-b8a2558dc369.webp"
+                                            alt=""></label>
+                                    <input type="radio" id="productRanking5" name="productRanking" value="4">
+                                    <label for="productRanking5"><img
+                                            src="https://valorantinfo.com/images/collection/411e4a55-4e59-7757-41f0-86a53f101bb5.webp"
+                                            alt=""></label>
+                                    <input type="radio" id="productRanking2" name="productRanking" value="5">
+                                    <label for="productRanking2"><img
+                                            src="https://valorantinfo.com/images/e046854e-406c-37f4-6607-19a9ba8426fc.webp"
+                                            alt=""></label>
+                                </div>
+                                <label for="productType">Product Type:</label>
+                                <select id="productType" name="productType" required>
+                                    <option value="Sidearm">Sidearm</option>
+                                    <option value="SMG">SMG</option>
+                                    <option value="Rifle">Rifle</option>
+                                    <option value="Sniper">Sniper</option>
+                                    <option value="Heavy">Heavy</option>
+                                    <option value="Melee">Melee</option>
+                                </select>
+                                <label for="productSet">Product Set:</label>
+                                <input type="text" id="productSet" name="productSet" required
+                                    [(ngModel)]="editedProduct.set">
+                                <label for="productTitle">Product title</label>
+                                <input type="text" id="productTitle" name="productTitle" required
+                                    [(ngModel)]="editedProduct.title">
+                                <button type="submit">Save Product</button>
+                            </form>
+                        </div>
+                        <div class="container_body_content_item" *ngIf="showEditUserFormFlag">
+                            <h1>Edit Account</h1>
+                            <!-- Trong file component.html của bạn -->
+                            <form (ngSubmit)="updateUsers()" *ngIf="editedUser">
+                                <label for="username">Username:</label>
+                                <input type="text" id="username" name="username" required
+                                    [(ngModel)]="editedUser.username">
+                                <label for="password">Password:</label>
+                                <input type="text" id="password" name="password" required
+                                    [(ngModel)]="editedUser.password">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required [(ngModel)]="editedUser.email">
+                                <label for="role">Role:</label>
+                                <select id="role" name="role" required [(ngModel)]="editedUser.role"
+                                    (ngModelChange)="onRoleChange($event)">
+                                    <option value="admin">admin</option>
+                                    <option value="user">user</option>
+                                </select>
+                                <button type="submit">Save Account</button>
+                            </form>
+                        </div>
+                        <div class="container_body_content_item" *ngIf="showOtherList">
+                            <table class="container">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <h1>Id</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Username</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Fullname</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Phone</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Address</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Email</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Price</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Shipping</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Payment</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Product</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Total price</h1>
+                                        </th>
+                                        <th>
+                                            <h1>
+                                                status
+                                            </h1>
+                                        </th>
+                                        <th>
+                                            <h1>Edit</h1>
+                                        </th>
+                                        <th>
+                                            <h1>Delete</h1>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let other of listOther">
+                                        <td>{{other.id}}</td>
+                                        <td>{{other.username}}</td>
+                                        <td>{{other.fullName}}</td>
+                                        <td>{{other.company}}</td>
+                                        <td>{{other.fullAddress}}</td>
+                                        <td>{{other.phone}}</td>
+                                        <td>{{other.email}}</td>
+                                        <td>{{other.shipping}}</td>
+                                        <td>{{other.payment}}</td>
+                                        <td>
+                                            <div *ngFor="let items of other.items">
+                                                <p>{{items.name}}</p>
+                                                <p>quantity{{items.quantity}}</p>
+                                                <img src="{{items.img}}" alt="">
+                                            </div>
+                                        </td>
+                                        <td>$ {{other.totalAmount}}</td>
+                                        <td>
+                                            <select name="status" id="status" [ngModel]="other.status" (ngModelChange)="onChangeStatus($event)">
+                                                <option value="0">-- Choose Status -- </option>
+                                                <option value="Pending">Pending</option>
+                                                <option value="Shipping">Shipping</option>
+                                                <option value="Delivered">Delivered</option>
+                                            </select>
+                                        </td>
+                                        <td><button *ngIf="other.status !== 'Delivered'"  (click)="updateOther(other)">Save Other</button></td>
+                                        <td><button (click)="deleteOther(other.id)">X</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

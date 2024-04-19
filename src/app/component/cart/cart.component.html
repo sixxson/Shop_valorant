@@ -1,0 +1,72 @@
+<app-header></app-header>
+<div class="container-fluid">
+    <div class="row">
+        <aside class="col-lg-9">
+            <div class="card">
+                <div class="table-responsive">
+                    <table class="table table-borderless table-shopping-cart">
+                        <thead class="text-muted">
+                            <tr class="table__carts">
+                                <th scope="col">Product</th>
+                                <th>Name</th>
+                                <th scope="col" width="120">Quantity</th>
+                                <th scope="col" width="120">Price</th>
+                                <th scope="col" class="text-right d-none d-md-block" width="200"></th>
+                            </tr>
+                        </thead>
+                        <tbody style="background-color: black;">
+                            <tr *ngFor="let item of carts; let i = index ">
+                                <td>
+                                    <img [src]="item.img" class="cart__item__img">
+                                </td>
+                                <td>
+                                    <a class="title text-dark">{{item.name}}</a>
+                                    <p class="text-muted small">{{item.set}}</p>
+                                </td>
+                                <td> 
+                                    {{item.quantity}}
+                                <td>
+                                    <div class="price-wrap"> {{item.price}} VP </div>
+                                </td>
+                                <td class="text-right d-none d-md-block">
+                                    <a data-original-title="Save to Wishlist" title="" class="btn btn-light"
+                                        data-toggle="tooltip" data-abc="true">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                    <a (click)="remove(i)" class="btn btn-light"> Remove</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <button (click)="clearCart()" style="width: 200px; font-size: 20px;">Xóa all</button>
+            </div>
+        </aside>
+        <aside class="col-lg-3">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <form>
+                        <div class="form-group"> <label>Have coupon?</label>
+                            <div class="input-group"> <input type="text" class="form-control coupon" name=""
+                                    placeholder="Coupon code"> <span class="input-group-append"> <button
+                                        class="btn btn-primary btn-apply coupon">Apply</button> </span> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <dl class="dlist-align">
+                        <dt>Total price:</dt>
+                        <dd class="text-right ml-3"> <p>{{calculateTotal()}} VP</p></dd>
+                    </dl>
+                
+                    <hr> <a [routerLink]="['/checkout']" class="btn btn-out btn-primary btn-square btn-main" data-abc="true"> Checkout
+                    </a> <a href="#" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Continue
+                        Shopping</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+</div>
+<app-footer></app-footer>

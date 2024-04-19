@@ -1,0 +1,106 @@
+.nav_link_socia{
+    background-color: #1d232b;
+}
+.nav_link_social ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.nav_link_social ul li{
+    list-style: none;
+    margin: 0 10px;
+    background-color: rgba(81, 79, 79, 0.573);
+    padding: 5px;
+    border-radius: 10px;
+}
+.navbar_down_game{
+    background-color: #454545b1;
+    padding: 10px 0;
+}
+
+.navbar_down_game ul{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar_down_game ul li{
+    list-style: none;
+}
+
+.navbar_down_game ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar_logo_{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_logo_ ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_logo_ ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.footer_content{
+    width: 50%;
+    margin: 50px auto;
+}
+.footer_content p{
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #7e7e7e
+}
+
+.riotbar_bar_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.riotbar_bar_ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.riotbar_bar_ ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navbar_logo_ a:hover svg {
+    fill: white;
+}
+
+.riotbar_bar_ ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.erro_log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+

@@ -1,0 +1,64 @@
+<section class="login">
+    <div class="container">
+        <h1>Sign In</h1>
+        <div id="form">
+            <form id="register_form" [formGroup]="registration" (ngSubmit)="signupdata(registration)">
+                <div class="input-container input-value">
+                    <input type="text" name="username" required formControlName="username" (input)="checkInputs()" />
+                    <label for="username">Username</label>
+                </div>
+
+                <div class="input-container input-value">
+                    <input type="text" name="email" required formControlName="email" (input)="checkInputs()" />
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-container input-value">
+                    <input type="password" name="password" required formControlName="password"
+                        (input)="checkInputs()" />
+                    <label for="password">Password</label>
+                </div>
+
+                <div class="input-container input-value">
+                    <input type="password" name="confirm_password" required formControlName="confirm_password"
+                        (input)="checkInputs()" />
+                    <label for="confirm_password">Confirm Password</label>
+                </div>
+
+                <div class="social">
+                    <div class="facebook">
+                        <img width="30px" src="../../../assets/facebook-icon.png" alt="">
+                    </div>
+
+                    <div class="google">
+                        <img width="30px" src="../../../assets/google-icon.png" alt="">
+                    </div>
+
+                    <div class="apple">
+                        <img width="30px" src="../../../assets/apple-icon.png" alt="">
+                    </div>
+                </div>
+
+                <div class="button">
+                    <button type="submit" class="btn" [disabled]="isDisabled">
+                        <svg width="35px" fill="#" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.6492 11.2501L12.7904 6.53852L13.8346 5.46167L20.5774 12.0001L13.8346 18.5385L12.7904 17.4617L17.6492 12.7501H3V11.2501H17.6492Z"
+                                    fill="#FFF"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="bottom-links">
+                    <p><a href="#">Can't sign in?</a></p>
+                    <p><a [routerLink]="['/login']">I have an account</a></p>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</section>

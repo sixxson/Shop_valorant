@@ -1,0 +1,77 @@
+<app-header></app-header>
+<section class="main">
+    <div class="cards" *ngIf="productDetails">
+        <div class="cards__colorURL">
+            <a (click)="changeColor(productDetails.imgURL.colordefault)">
+                <img [src]="productDetails.colorURL.colorDefault" alt="" [class.active]="isClicked">
+            </a>
+            <a (click)="changeColor(productDetails.imgURL.color1)">
+                <img [src]="productDetails.colorURL.color1" alt="" [class.active]="isClicked">
+            </a>
+            <a (click)="changeColor(productDetails.imgURL.color2)">
+                <img [src]="productDetails.colorURL.color2" alt="" [class.active]="isClicked">
+            </a>
+            <a (click)="changeColor(productDetails.imgURL.color3)">
+                <img [src]="productDetails.colorURL.color3" alt="" [class.active]="isClicked">
+            </a>
+        </div>
+        <div class="cards_item_product">
+            <div class="cards__item cards__item--clr2">
+                <div class="cards_lazy"><img [src]="productDetails.ranking" alt=""></div>
+                <div class="cards__price"><img src="https://valorantinfo.com/images/collection/vp.webp" alt="">
+                    {{productDetails.price}}
+                </div>
+                <div class="cards__name">{{productDetails.name}} <span style="display: none;">{{productDetails.set}}</span></div>
+                <div class="cards__product">
+                    <img [src]="[selectedColorURL]" alt=""
+                        [ngStyle]="{ 'width.px': (productDetails.type === 'Heavy' ? 650 :null)}">
+                </div>
+            </div>
+        </div>
+        <div class="cards__btn"><a (click)="buyNow(productDetails)" class="brk-btn">Thanh toán</a></div>
+    </div>
+    <div class="random__product">
+        <div *ngFor=" let gun of products | slice:0:displayCount" class="cards_item_product">
+            <a  [routerLink]="['/products', gun.id]" >
+                <div class="cards__item__random cards__item--clr1" *ngIf="gun.star === 3">
+                    <div class="cards__lazy__random"><img [src]="gun.ranking"
+                            [ngStyle]="{'right.px': +gun.star === 5 ? 120 : null }" alt=""></div>
+                    <div class="cards__price"><img src="https://valorantinfo.com/images/collection/vp.webp" alt="">
+                        {{gun.price}}
+                    </div>
+                    <div class="cards__name__random">{{gun.name}} </div>
+                    <div class="cards__product__random">
+                        <img [src]="gun.imgURL.colordefault" alt=""
+                            [ngStyle]="{ 'width.px': (gun.type === 'Heavy' ? 350 :(gun.type === 'Sidearm' ? 250:null))}">
+                    </div>
+                </div>
+            </a>
+            <a [routerLink]="['/products', gun.id]">
+                <div class="cards__item__random cards__item--clr2" *ngIf="gun.star === 4">
+                    <div class="cards__lazy__random"><img [src]="gun.ranking" alt=""></div>
+                    <div class="cards__price"><img src="https://valorantinfo.com/images/collection/vp.webp" alt="">
+                        {{gun.price}}
+                    </div>
+                    <div class="cards__name__random">{{gun.name}}</div>
+                    <div class="cards__product__random">
+                        <img [src]="gun.imgURL.colordefault" alt="">
+                    </div>
+                </div>
+            </a>
+            <a [routerLink]="['/products', gun.id]">
+                <div class="cards__item__random cards__item--clr3" *ngIf="gun.star === 5">
+                    <div class="cards__lazy__random"><img [src]="gun.ranking" alt=""></div>
+                    <div class="cards__price"><img src="https://valorantinfo.com/images/collection/vp.webp" alt="">
+                        {{gun.price}}
+                    </div>
+                    <div class="cards__name__random">{{gun.name}}</div>
+                    <div class="cards__product__random">
+                        <img [src]="gun.imgURL.colordefault" alt=""
+                            [ngStyle]="{'width.px': (gun.type === 'Heavy' ? 400 :(gun.type === 'Sidearm' ? 250:null))}">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

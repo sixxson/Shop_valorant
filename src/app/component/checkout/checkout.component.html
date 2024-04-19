@@ -1,0 +1,222 @@
+<head>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/fonts/roboto/Roboto-Regular.woff"
+        rel="stylesheet" type="font/woff">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vuex/3.0.1/vuex.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js'></script>
+    <script src='https://dawa.aws.dk/js/autocomplete/dawa-autocomplete2.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/vue-awesome-swiper@3.1.2/dist/vue-awesome-swiper.js'></script>
+    <script src='https://unpkg.com/vuelidate@0.6.2/dist/vuelidate.min.js'></script>
+    <script src='https://unpkg.com/vuelidate@0.6.2/dist/validators.min.js'></script>
+    <script src="./script.js"></script>
+
+</head>
+
+<app-header></app-header>
+
+<div class="header">
+
+    <div class="container wrapper">
+        <div class="row hide-on-med-and-up">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <p><b>Items in cart:</b></p>
+                        <p><b>Shipping:</b> </p>
+                        <p><b>Total:</b> </p>
+                        <span class="small-text grey-text text-darken-2 m-top-10 ">Fill out the information below and go
+                            directly to payment by clicking the button.</span>
+                    </div>
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                            class="material-icons">arrow_downward
+                        </i></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card" id="step-1">
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><b>Information</b></span>
+                        <div class="row m-top-15">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12 l6 m-top-15">
+                                        <input id="first_name" type="text" autocomplete="name" [(ngModel)]="fullName"
+                                            name="fullName">
+                                        <label for="first_name">Full name</label>
+                                        <span class="helper-text" data-error="Please fill out full name">Helper
+                                            text</span>
+                                    </div>
+                                    <div class="input-field col s12 l6 m-top-15">
+                                        <input id="company" type="text" class="validate" [(ngModel)]="company"
+                                            name="company">
+                                        <label for="company">Company (optional)</label>
+                                    </div>
+                                </div>
+                                <div class="row m-top-15">
+                                    <div class="input-field col s12 autocomplete-container">
+                                        <input class="js-autocomplete-input" id="dawa-autocomplete-input" type="url"
+                                            class="validate" autocomplete="false" [(ngModel)]="fullAddress"
+                                            name="fullAddress">
+                                        <label for="dawa-autocomplete-input">Full address</label>
+                                        <span class="helper-text" data-error="Please fill out full address">Helper
+                                            text</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12 l6 m-top-15">
+                                        <input id="email" type="email" class="validate" autocomplete="email"
+                                            [(ngModel)]="email" name="email">
+                                        <label for="email">Email</label>
+                                        <span class="helper-text" data-error="Please fill out email">Helper text</span>
+                                    </div>
+                                    <div class="input-field col s12 l6 m-top-15">
+                                        <input id="phone" type="tel" class="validate" autocomplete="tel"
+                                            [(ngModel)]="phone" name="phone" maxlength="13" minlength="10">
+                                        <label for="phone">Phone</label>
+                                        <span class="helper-text" data-error="Please fill out phone">Helper text</span>
+                                    </div>
+                                </div>
+                                <label class="d-block m-top-15">
+                                    <input type="checkbox" class="filled-in" name="alternativeDelivery">
+                                    <span>Choose alternative delivery</span>
+                                </label>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="step-2">
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><b>Shipping</b></span>
+                        <p>Pleasse choose your desired shipping provider.</p>
+                        <form>
+                            <p class="p-top-10 shipping__express">
+                                <label>
+                                    <input type="radio" class="with-gap m-top-15" name="shipping" value="1"
+                                        (change)="updateShipping($event)" />
+                                    <span id="shipping_1">Giao hàng tiết kiệm - $10</span>
+                                </label>
+                                <label>
+                                    <input type="radio" class="with-gap m-top-15" name="shipping" value="2"
+                                        (change)="updateShipping($event)" />
+                                    <span id="shipping_2">Giao hàng nhanh - $20</span>
+                                </label>
+                                <label>
+                                    <input type="radio" class="with-gap m-top-15" name="shipping" value="3"
+                                        (change)="updateShipping($event)" />
+                                    <span id="shipping_3">Giao hàng hoả tốc - $30</span>
+                                </label>
+                            </p>
+                        </form>
+
+                        <span
+                            class="card-title activator grey-text text-darken-4 m-top-15 p-top-10"><b>Voucher</b></span>
+                        <label class="d-block m-top-15">
+                            <input type="checkbox" class="filled-in" />
+                            <span>I have a voucher code</span>
+                        </label>
+                        <div class="row m-top-10 p-top-10">
+                            <div class="input-field col s12 l6">
+                                <input id="voucher" type="text" class="validate">
+                                <label for="voucher">Voucher</label>
+                            </div>
+                            <div class="col s12 l6">
+                                <a class="waves-effect waves-light btn indigo darken-4 m-top-10">Add voucher</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card" id="step-4">
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><b>Order summary</b></span>
+                        <div class="row info">
+                            <div class="col s12 m6 address">
+                                <p><b>Billing address:</b></p>
+                                <p>Full name: {{ fullName }}</p>
+                                <p>Company: {{ company }}</p>
+                                <p>Full address: {{ fullAddress }}</p>
+                                <p>Email: {{ email }}</p>
+                                <p>Phone: {{ phone }}</p>
+
+                            </div>
+                        </div>
+                        <span class="card-title activator grey-text text-darken-4 m-top-15"><b>Your order</b></span>
+                        <span><b> items</b></span>
+                        <ul class="collection" *ngFor="let cart of carts  let i = index ">
+                            <li class="collection-item avatar" ref="item-1">
+                                <div class="row">
+                                    <img src="{{cart.img}}" alt="" class="img_cart">
+                                    <div class="col s12 l4">
+                                        <span class="title">{{cart.name}}</span>
+                                        <p>{{cart.set}}</p>
+                                    </div>
+                                    <div class="input-field col s6 l2">
+                                        <span class="title">{{cart.price}} Vp = {{ cart.price === 1775 ? '350' :
+                                            (cart.price === 2375 ? '450' : cart.price) }} $</span>
+                                    </div>
+                                    <div class="input-field col s6 l2">
+                                        <span class="title">{{cart.quantity}}</span>
+                                    </div>
+                                </div>
+                                <a (click)="remove(i)" class="secondary-content"><i class="material-icons">clear</i></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span class="right_shipping"><b>Shipping </b><i>{{ selectedShippingValue }}</i></span>
+                                <span class="right right_shipping_price">- {{selectedShippingPrice}} $</span>
+                            </li>
+                            <li>
+                                <span><b>Discount</b></span>
+                                <span class="right">$</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <span><b>Total</b></span>
+                        <span class="right"><b>${{calculateTotal()}}</b></span>
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title activator grey-text text-darken-4"><b>Payment</b></span>
+                        <p class="payment-info">Please choose your desired payment method. Credit card option will
+                            redirect you to the payment gateway.</p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" />
+                                <span>Please sign me up for the newsletter</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" />
+                                <span>I hereby confirm that the information that I have provided is correct and that I
+                                    accept the <a href="#" class="indigo-text text-darken-4">Terms and
+                                        Conditions</a></span>
+                            </label>
+                        </p>
+                        <a ref="link" (click)="addOther('cash')" class="waves-effect waves-light btn-credit-card blue">
+                            <i class='material-icons left'>local_atm</i>Payment on delivery
+                        </a>
+                        <a ref="link" (click)="addOther('credit_card')" class="waves-effect waves-light btn-credit-card blue-grey">
+                            <i class="material-icons left">credit_card</i>Pay with Credit Card</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <app-footer></app-footer>
